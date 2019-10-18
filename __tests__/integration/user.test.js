@@ -10,7 +10,6 @@ describe('User', () => {
         email: 'igorsouza.dev@gmail.com',
         password_hash: '123456',
       });
-    console.log(response);
     expect(response.body).toHaveProperty('id');
   });
 });
